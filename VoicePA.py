@@ -11,6 +11,9 @@ import pyautogui
 import google.generativeai as genai
 genai.configure(api_key="AIzaSyA5EDN2tJhBHi-n9VSzGd4yuHIM-6980C4")
 
+#"Anoop" is a Python-based voice assistant that performs tasks like playing music, opening apps, telling jokes, and answering questions using voice commands. It uses speech recognition, text-to-speech, and Gemini AI for smart, real-time interactions.
+
+
 # Initialize speech engine
 engine = pyttsx3.init()
 engine.setProperty('rate', 120)
